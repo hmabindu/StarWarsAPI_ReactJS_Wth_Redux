@@ -1,0 +1,63 @@
+body {
+  font: 16px Montserrat, sans-serif;
+  line-height: 1.8;
+
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;
+color: orange}
+.bg-1 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: snow; /* Snow White */
+  color: #555555;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0 !important;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+#titlesStyle{
+  color:orange;
+}
+.characterStyle{
+  overflow-y:auto !important;
+}
+.bg-starships{
+  background-color: beige;
+}
+.filmsBg{
+  background-color: #474e5d;
+}
+.filmPage{
+  padding-top: 0px !important;
+  background-color: #474e5d;
+  color: white;
+}
+.filmPage h2{
+  color: orange;
+}
+.filmPage h4{
+  color: darkgoldenrod;
+}
+.list-group-item{
+  background-color: aliceblue !important;
+  padding: 0 !important;
+}
