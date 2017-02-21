@@ -16,7 +16,7 @@ export class Home extends Component {
 
                 <div className="container-fluid bg-2 text-center">
                     <h3 className="margin">Films?</h3>
-                    <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/full_MovieList.jpg" className="img-responsive img-circle margin" style={divStyle} alt="MoviesList" width="350" height="350"/>
+                    <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/full_MovieList.jpg" className="img-responsive img-circle margin grow" style={divStyle} alt="MoviesList" width="350" height="350"/>
                     <h3>7 StarWar Movies</h3>
                 </div>
                 <div className="container-fluid bg-3 text-center">

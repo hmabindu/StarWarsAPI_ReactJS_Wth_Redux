@@ -10,7 +10,6 @@ module.exports = {
 
         app.use('/public/scripts/', publicPath);
         app.get('/', function (_, res) { res.sendFile(indexPath) });
-        app.get('/films/:id', function (_, res) { res.sendFile(indexPath) });
         return app
     }
 };

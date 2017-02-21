@@ -68,7 +68,7 @@ class FilmPage extends Component {
     render() {
         const { title } = this.props.film;
         return (
-            <div className="container-fluid filmPage">
+            <div className="container-fluid filmPage fade">
                 {/*<h4><Link to={"/films"}>Back</Link></h4>*/}
                 <br/>
                 <div>

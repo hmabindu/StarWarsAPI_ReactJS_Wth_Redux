@@ -10,7 +10,7 @@ import * as types from '../constants/actionTypes';
 
 export function fetchFilm(id) {
     return function(dispatch) {
-        axios.get(`https://swapi.co/api/films/${id}/`)
+        axios.get(`${API.FILMS}${id}/`)
             .then((res) => {//success
                 dispatch({
                     type: types.FETCH_FILM,
