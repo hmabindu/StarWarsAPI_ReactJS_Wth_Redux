@@ -9,7 +9,7 @@ module.exports = {
         const publicPath = express.static(path.join(__dirname, 'public/scripts/'));
 
         app.use('/public/scripts/', publicPath);
-        app.get('/', function (_, res) { res.sendFile(indexPath) });
+        app.get('*', function (_, res) { res.sendFile(indexPath) });
         return app
     }
 };

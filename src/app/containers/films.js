@@ -38,7 +38,7 @@ class Films extends React.Component {
                 <div className="container-fluid text-center ">
                     <h2 className="margin">Film Titles</h2>
                     <div className="row">
-                        <div className="col-xs-10 col-xs-offset-2">
+                        <div className="col-xs-10 col-xs-offset-1">
                             <div className="col-sm-4">
                                 <br/>
                                 {this.renderFilms()}

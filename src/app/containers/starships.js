@@ -2,8 +2,7 @@ import React ,{Component,PropTypes} from "react";
 import {connect} from 'react-redux';
 import {fetchStarShips} from "../actions/starShipAction";
 import {bindActionCreators} from "redux";
-import Coverflow from 'react-coverflow';
-import {StyleRoot} from 'radium';
+import {Carousel, CarouselItem} from "react-bootstrap";
 
 
 class StarShips extends React.Component {
@@ -28,48 +27,56 @@ class StarShips extends React.Component {
     }
     render(){
         return(
-                <div className="container-fluid bg-starships">
-                    <div>
-                        <div className="col-sm-8 col-sm-offset-2">
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <h3 className="margin">StarShips</h3>
-                                    {this.renderStarShips()}
-                                </div>
-                                <div className="col-sm-4">
-                                    <br/>
-
-                                    <StyleRoot>
-                                        <Coverflow
-                                            displayQuantityOfSide={2}
-                                            navigation={true}
-                                            enableHeading={true}
-                                            media={{
-                                                '@media (max-width: 900px)': {
-                                                    width: '300px',
-                                                    height: '300px'
-                                                },
-                                                '@media (min-width: 900px)': {
-                                                    width: '360px',
-                                                    height: '300px'
-                                                }
-                                            }}
-                                        >
-
-
-                                            <img src='https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img4.jpg' alt='Millennium Falcon' />
-                                            <img src='https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img5.jpeg' alt='Y-Wing'/>
-                                            <img src='https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img3.jpg' alt='X-Wing'/>
-                                            <img src='https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img2.jpg' alt='Executor'/>
-                                            <img src='https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img1.jpg' alt='Imperial shuttle'/>
-                                        </Coverflow>
-                                    </StyleRoot>
-                                </div>
+            <div className="container-fluid bg-starships">
+                <div>
+                    <div className="col-sm-10 col-sm-offset-1">
+                        <div className="row">
+                            <div className="col-sm-4">
+                                <h3 className="margin">StarShips</h3>
+                                {this.renderStarShips()}
                             </div>
-
+                            <div className="col-sm-6">
+                                <br/>
+                                <br/>
+                                <br/>
+                                <Carousel>
+                                    <Carousel.Item>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img5.jpeg"/>
+                                        <Carousel.Caption>
+                                            <h3>Y-WING</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img4.jpg"/>
+                                        <Carousel.Caption>
+                                            <h3>MILLENNIUM FALCON</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img2.jpg"/>
+                                        <Carousel.Caption>
+                                            <h3>EXECUTOR</h3>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <CarouselItem>
+                                        <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img3.jpg"/>
+                                        <Carousel.Caption>
+                                            <h3>X-WING</h3>
+                                        </Carousel.Caption>
+                                    </CarouselItem>
+                                    <CarouselItem>
+                                        <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img1.jpg"/>
+                                        <Carousel.Caption>
+                                            <h3>IMPERIAL SHUTTLE</h3>
+                                        </Carousel.Caption>
+                                    </CarouselItem>
+                                </Carousel>
+                            </div>
                         </div>
+
                     </div>
                 </div>
+            </div>
         );
     }
 }
