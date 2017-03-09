@@ -43,16 +43,17 @@
   },
   "dependencies": {
     "axios": "^0.9.0",
-    "react-bootstrap": "^0.30.7",
     "express": "4.14.0",
     "extract-text-webpack-plugin": "1.0.1",
     "react": "^15.2.0",
     "react-addons-test-utils": "15.2.0",
+    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.2.0",
     "react-redux": "4.4.5",
     "react-router": "2.5.2",
     "react-router-redux": "4.0.5",
     "redux": "3.5.2",
+    "redux-devtools-extension": "^2.13.0",
     "redux-thunk": "2.1.0"
   }
 }
