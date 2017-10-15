@@ -41,31 +41,31 @@ class StarShips extends React.Component {
                                 <br/>
                                 <Carousel>
                                     <Carousel.Item>
-                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img5.jpeg"/>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.us-east-2.amazonaws.com/starwarscontent/img5.jpeg"/>
                                         <Carousel.Caption>
                                             <h3>Y-WING</h3>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img4.jpg"/>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.us-east-2.amazonaws.com/starwarscontent/img4.jpg"/>
                                         <Carousel.Caption>
                                             <h3>MILLENNIUM FALCON</h3>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <Carousel.Item>
-                                        <img width={500} height={300} alt="900x500" src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img2.jpg"/>
+                                        <img width={500} height={300} alt="900x500" src="https://s3.us-east-2.amazonaws.com/starwarscontent/img2.jpg"/>
                                         <Carousel.Caption>
                                             <h3>EXECUTOR</h3>
                                         </Carousel.Caption>
                                     </Carousel.Item>
                                     <CarouselItem>
-                                        <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img3.jpg"/>
+                                        <img src="https://s3.us-east-2.amazonaws.com/starwarscontent/img3.jpg"/>
                                         <Carousel.Caption>
                                             <h3>X-WING</h3>
                                         </Carousel.Caption>
                                     </CarouselItem>
                                     <CarouselItem>
-                                        <img src="https://s3.amazonaws.com/aws-logs-223602368946-us-east-1/images/img1.jpg"/>
+                                        <img src="https://s3.us-east-2.amazonaws.com/starwarscontent/img1.jpg"/>
                                         <Carousel.Caption>
                                             <h3>IMPERIAL SHUTTLE</h3>
                                         </Carousel.Caption>
