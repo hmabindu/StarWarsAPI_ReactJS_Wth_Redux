@@ -15,11 +15,11 @@
     "redux",
     "axios"
   ],
-  "author": "Hima",
+  "author": "Surya",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hmabindu/StarWarsAPI_ReactJS_Wth_Redux.git"
+    "url": "https://github.com/suryabindu1025/StarWarsAPI_ReactJS_Wth_Redux.git"
   },
   "devDependencies": {
     "babel": "^6.5.2",
